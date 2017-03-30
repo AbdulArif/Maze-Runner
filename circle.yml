@@ -18,8 +18,7 @@ machine:
 dependencies:
   pre:
     - npm install coffeescript # install from a different package manager
-    - gem uninstall bundler # use a custom version of bundler
-    - gem install bundler --pre
+    
 
   override:
     - bundle install: # note ':' here
@@ -50,4 +49,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: foo-bar-123
+      appname: Maze-Runner
