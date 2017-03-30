@@ -19,12 +19,6 @@ machine:
     CIRCLE_ENV: test
     DATABASE_URL: postgresql://ubuntu:@127.0.0.1:5432/circle_test
 
-## Customize checkout
-checkout:
-  post:
-    - git submodule sync
-    - git submodule update --init # use submodules
-
 ## Customize dependencies
 dependencies:
   pre:
