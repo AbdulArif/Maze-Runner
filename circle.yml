@@ -49,4 +49,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: Maze-Runner
+      appname: Maze
