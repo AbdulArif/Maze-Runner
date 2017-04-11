@@ -2,8 +2,8 @@ test:
   override:
   - mvn clean
   - mvn dependency:resolve
-  - mvn UnitTestSuite
-  - mvn IntegrationTestSuite
+  - mvn test -Dtest=UnitTestSuite
+  - mvn test -Dtest=IntegrationTestSuite
   post:
   - mvn clean cobertura:cobertura coveralls:cobertura
 
