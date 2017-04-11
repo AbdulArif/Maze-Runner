@@ -11,4 +11,4 @@ machine:
   timezone:
     America/Los_Angeles
   java:
-    version: oraclejdk7
+    version: oraclejdk8
