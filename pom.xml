@@ -36,6 +36,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<properties>
+    		<runSuite>**/FastTestSuite.class</runSuite>
+	</properties>
 
 	<dependencies>
 		
@@ -155,6 +158,7 @@
 					<includes>
 						<include>**/UnitTestSuite.java</include>
 						<include>**/IntegrationTestSuite.java</include>
+						<include>${runSuite}</include>
 					</includes>
 				</configuration>
 			</plugin>
