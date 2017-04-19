@@ -1,6 +1,5 @@
 package main;
 
-
 import entities.Player;
 import gfx.SpriteSheet;
 import gfx.ImageManager;
@@ -149,7 +148,10 @@ public class Game extends Canvas implements Runnable {
     bs.show();
   }
   
-  //
+  // The setLevel is a proper test case to be tested.
+  // It basiclly takes in the new round number based on whether the player won or not.
+  // The round number is originlly created in the player class and set to 1
+  // It will always keep increase and that could give the posiballity of getting over the provided switch cases.
   public static Level setLevel(int round) {
       int nx = (WIDTH * SCALE / 2) - (TILESIZE * SCALE);
       int ny = (WIDTH * SCALE / 2) - (TILESIZE * SCALE);
