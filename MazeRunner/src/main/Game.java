@@ -17,7 +17,9 @@ import entities.Rock;
 
 
 public class Game extends Canvas implements Runnable {
-  //game screen size
+
+	private static final long serialVersionUID = 7394393842642375148L;
+//game screen size
   public static final int WIDTH = 640;
   public static final int HEIGHT = 640;
   //Scale & size are adjustable
