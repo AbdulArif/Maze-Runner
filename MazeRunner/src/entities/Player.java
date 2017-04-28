@@ -1,4 +1,7 @@
 package entities;
+https://github.com/AbdulArif/MazeRunner/invitations
+
+
 
 import gfx.Animation;
 import gfx.ImageManager;
